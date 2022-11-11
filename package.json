@@ -1,0 +1,23 @@
+{
+    "name": "mobilestore",
+    "version": "1.0.0",
+    "description": "BackEnd of the Mobile Store ",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hbkysf27/ZARA-Mobile-Store.git"
+    },
+    "author": "Yusuf",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hbkysf27/ZARA-Mobile-Store/issues"
+    },
+    "homepage": "https://github.com/hbkysf27/ZARA-Mobile-Store#readme",
+    "dependencies": {
+        "prettier": "^2.7.1"
+    },
+    "devDependencies": {}
+}
