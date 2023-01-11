@@ -27,7 +27,17 @@ app.post(`${api}/products`, (req, res) => {
     res.send(newProduct); 
     })
 
-
+mongoose.connect(process.env.CONNECTION_STRING, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    dbName: 'zara-database'
+})
+.then(() => {
+    console.log('Database connection established')
+})
+.catch((err)=> {
+    console.log(err);
+})
 
 
 //initialize ports
