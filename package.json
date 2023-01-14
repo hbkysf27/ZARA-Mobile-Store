@@ -18,13 +18,12 @@
     },
     "homepage": "https://github.com/hbkysf27/ZARA-Mobile-Store#readme",
     "dependencies": {
+        "cors": "^2.8.5",
         "dotenv": "^16.0.3",
         "express": "^4.18.2",
-        "mongodb": "^4.13.0",
         "mongoose": "^6.8.3",
         "morgan": "^1.10.0",
         "nodemon": "^2.0.20",
-        "notenv": "^2.0.3",
         "prettier": "^2.7.1"
     }
 }
